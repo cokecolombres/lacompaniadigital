@@ -714,7 +714,7 @@ margin-left: -17px; line-height: 50px; }
  *************************************/
 .isotope-filters { display: table; margin:0 auto 50px; text-align: center; }
 .isotope-filters.text-left { display: block; margin: 30px 0; text-align: left; }
-.isotope-filters button { margin: 4px; cursor: pointer;  padding: 6.5px 25px; font-size: 15px; border-radius: 3px; background: transparent; color: #363636; font-weight: 500; border: 1px solid #ccc;text-transform: capitalize; transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out; -o-transition:all 0.3s ease-in-out; -ms-transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out; }
+.isotope-filters button { margin: 4px; cursor: pointer;  padding: 6.5px 25px; font-size: 15px; border-radius: 3px; background: transparent; color: #363636; font-weight: 500; border: 1px solid #ccc; transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out; -o-transition:all 0.3s ease-in-out; -ms-transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out; }
 .isotope-filters  button:focus { outline: none;  outline-style: none; outline-offset:0; }
 .isotope-filters  button.active, .isotope-filters  button:hover { background: #84ba3f; color: #fff; border-color: #84ba3f; }
 .isotope-filters  button+button { margin-left: 10px; }
@@ -1976,7 +1976,7 @@ canvas{-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;
 /*search-no-result*/
 .search-no-result { padding: 130px 0px; }
 .search-no-result i { font-size: 130px; }
-.search-no-result .bg-title h2 { font-size: 420px; line-height: 300px; color: rgba(0, 0, 0, 0.03); position: absolute; left: 0; right: 0; top: 0; }
+.search-no-result .bg-title h2 { font-size: 360px; line-height: 200px; color: rgba(0, 0, 0, 0.03); position: absolute; left: 0; right: 0; top: 0; }
 .no-result-search .form-control:focus { box-shadow: none; }
 
 /*cookies page*/

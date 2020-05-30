@@ -54,32 +54,6 @@
  header -->
 
 <header id="header" class="header default">
-  <div class="topbar">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 xs-mb-10">
-          <div class="topbar-call text-center text-md-left">
-            <ul>
-              <li><i class="fa fa-envelope-o theme-color"></i> contacto@lacompaniadigital.com</li>
-               <li><i class="fa fa-phone"></i> <a href="tel:+7042791249"> <span>+(381) 232 4554 </span> </a> </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6">
-          <div class="topbar-social text-center text-md-right">
-            <ul>
-              <li><a href="https://www.facebook.com/lacompaniadigital/?_rdc=1&_rdr" target="_blank"><span class="ti-facebook"></span></a></li>
-              <li><a href="https://www.instagram.com/lacompania.digital/" target="_blank"><span class="ti-instagram"></span></a></li>
-              <li><a href="https://twitter.com/CompaniaDigital" target="_blank"><span class="ti-twitter"></span></a></li>
-              <li><a href="https://ar.linkedin.com/company/la-compa%C3%B1%C3%ADa-digital?trk=public_profile_topcard_current_company" target="_blank"><span class="ti-linkedin"></span></a></li>
-              <li><a href="https://www.youtube.com/channel/UCd4Rh7AD4lnpr1AQ5XmOucg" target="_blank"><span class="ti-youtube"></span></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
 
   <div class="menu">
     <!-- menu start -->
@@ -99,6 +73,8 @@
               <div class="menu-bar">
                 <ul class="menu-links">
                   <li><a href="index.html">Inicio </a>
+                  </li>
+                  <li><a class="btn disabled">Noticias </a>
                   </li>
                   <li><a href="about.html">Nosotros </a>
                   </li>
@@ -163,35 +139,14 @@
 <section class="gray-bg blog masonry-main page-section-ptb">
  <div class="container">
    <div class="row">
-      <div class="col-lg-3">
-        <div class="sidebar-widget">
-           <h6 class="mb-20">El blog</h6>
-           <p>Somos un medio que <strong>inspira</strong> a las personas a lograr grandes cosas utilizando la tecnología. <br><br> Mejorá tu rendimiento y potenciá tus capacidades.</p>
-        </div>
-
-        <div class="sidebar-widget">
-            <div class="widget-search mt-40">
-                <i class="fa fa-search"></i>
-                <input type="search" class="form-control" placeholder="Buscar...." />
-              </div>
-        </div>
-
-        <div class="sidebar-widget">
-          <h6 class="mt-40 mb-20">Filtrar</h6>
-          <div class="widget-tags">
-             <ul>
-              <li><a href="#">Marketing digital</a></li>
-              <li><a href="#">Redes sociales</a></li>
-              <li><a href="#">Programación</a></li>
-              <li><a href="#">Robótica</a></li>
-              <li><a href="#">Diseño web</a></li>
-              <li><a href="#">Diseño gráfico</a></li>
-              <li><a href="#">Seguridad informática</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
       <div class="col-lg-9">
+        <div class="isotope-filters">
+          <button data-filter="" class="active">Ver todo</button>
+          <button data-filter=".photography">Trabajo a distancia</button>
+          <button data-filter=".illustration">Tips & consejos</button>
+          <button data-filter=".branding">Marketing digital</button>
+          <button data-filter=".web-design">Presencia online</button>
+        </div>
         <div class="masonry columns-2">
           <div class="grid-sizer"></div>
           <div class="masonry-item">
@@ -240,7 +195,7 @@
             </div>
           </div>
           
-          <div class="masonry-item">
+          <div class="masonry-item photography">
             <div class="blog-entry mb-10">
               <div class="entry-image clearfix">
                 <div class="owl-carousel bottom-center-dots" data-nav-dots="ture" data-items="1" data-md-items="1" data-sm-items="1" data-xs-items="1" data-xx-items="1">
@@ -306,7 +261,7 @@
             </div>
           </div>
 
-          <div class="masonry-item">
+          <div class="masonry-item photography">
             <div class="blog-entry mb-50">
                   <div class="blog-entry-you-tube">
                      <div class="js-video [youtube, widescreen]">
@@ -346,7 +301,7 @@
              </div>
           </div>
 
-          <div class="masonry-item">
+          <div class="masonry-item illustration">
             <div class="blog-entry mb-50">
           <div class="blog-detail">
               <div class="entry-title mb-10">
@@ -392,7 +347,7 @@
        </div>
           </div>
 
-          <div class="masonry-item">
+          <div class="masonry-item branding">
             <div class="blog-entry mb-50">
            <div class="clearfix">
             <ul class="grid-post">
@@ -458,7 +413,7 @@
        </div>
           </div>
 
-          <div class="masonry-item">
+          <div class="masonry-item branding web-design">
             <div class="blog-entry mb-50">
           <div class="blog-detail">
               <div class="entry-title mb-10">
@@ -504,6 +459,19 @@
           </div>
        </div>
           </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="sidebar-widget">
+           <h6 class="mb-20">El blog</h6>
+           <p><strong>Inspiramos</strong> a las personas a lograr grandes cosas junto la tecnología. <br><br> Mejorá tu rendimiento y potenciá tus capacidades con herramientas digitales.</p>
+        </div>
+
+        <div class="sidebar-widget">
+            <div class="widget-search mt-40">
+                <i class="fa fa-search"></i>
+                <input type="search" class="form-control" placeholder="Buscar...." />
+              </div>
         </div>
       </div>
     </div>
