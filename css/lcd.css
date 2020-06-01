@@ -1,7 +1,9 @@
 #lcd-title {
       color: yellow
   }
-
+h1.lcd-title{
+	color: yellow
+}
  div p.lcd-p{
  	font-size: 20px;
  }
