@@ -1,8 +1,8 @@
 #lcd-title {
-      color: yellow
+      color: #ffda00
   }
 h1.lcd-title{
-	color: yellow
+	color: #ffda00
 }
  div p.lcd-p{
  	font-size: 20px;
@@ -10,6 +10,6 @@ h1.lcd-title{
 
 .button.button-border.yellow {
     background: transparent;
-    border: 2px solid yellow;
-    color: yellow;
+    border: 2px solid #ffda00;
+    color: #ffda00;
 }
