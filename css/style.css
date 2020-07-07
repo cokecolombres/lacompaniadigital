@@ -2172,3 +2172,69 @@ img.bottom-img { top: 0; }
      .newsletter.fancy button { padding: 14px 20px;  }
     }
 }
+
+.jquery {
+  margin-left: -25%;
+}
+.animatecss {
+  margin-left: -70%;
+}
+.git {
+  margin-left: -60%;
+}
+
+img.bn {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);  
+}
+
+img.bn:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);  
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:hover, .nav-link:focus {
+  text-decoration: none;
+}
+
+.nav-link.disabled {
+  color: #868e96;
+}
+
+
+
+.nav-link,
+.nav-item {
+  padding: 0 .75rem;
+  min-width: 2rem;
+  transition: .3s color;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-link .badge,
+.nav-item .badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: .2rem .25rem;
+  min-width: 1rem;
+}
