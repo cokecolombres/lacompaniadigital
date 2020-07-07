@@ -23,7 +23,7 @@ NOTE: This file contains Section titles CSS.*/
 .section-title.right .title:before { right: 0; left: inherit; margin-left: inherit; }
 
 /*bg */
-.section-title span.theme-bg { background: #84ba3f; color: #ffffff; padding: 0 15px; } 
+.section-title span.theme-bg { background: #ffda00; color: #ffffff; padding: 0 15px; } 
 
 /*dark-bg*/
 .section-title.dark-bg .title { color: #ffffff; } 
