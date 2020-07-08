@@ -1669,7 +1669,7 @@ img#logo-footer{ height: 100px; width: auto; }
 .play-video-section .play-video a i { line-height: 60px; padding-right: 3px; }
 .play-video-section .play-video:after {box-shadow: none; }
 .play-video-section .content { padding: 0 100px; }
-.play-video-section .content h2 { font-family: 'Dosis', sans-serif; }
+.play-video-section .content h2 { font-family: trumpgothicpro, sans-serif; font-style: normal; }
 .custom-content-03 h2 { font-family: 'Dosis', sans-serif; font-size: 40px; line-height: 50px; }
 
 .play-video-section.black-button .play-video { background: #323232; }
