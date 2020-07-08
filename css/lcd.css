@@ -13,3 +13,16 @@ h1.lcd-title{
     border: 2px solid #ffda00;
     color: #ffda00;
 }
+
+
+.text-lcd{
+	color: #e8ae00;
+}
+
+.bg-lcd{
+	background: #e8ae00;
+}
+
+.testimonial2{
+	padding:85px 50px 45px 70px;
+}

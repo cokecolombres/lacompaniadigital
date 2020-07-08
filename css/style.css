@@ -1899,7 +1899,7 @@ img#logo-footer{ height: 100px; width: auto; }
 .carousel-fade .carousel-inner .active.right { left: 0; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0);
 }
 
-.play-video.border-video { width: 70px; height: 70px; background: rgba(255, 255, 255, 0.2); box-shadow: none !important; border:5px solid rgba(255, 255, 255, 0.6) !important; }
+.play-video.border-video { width: 70px; height: 70px; background: rgba(255, 255, 255, 0.2); box-shadow: none !important; border:5px solid rgba(232, 174, 0, 0.8) !important; }
 .play-video.border-video a {  width: 70px; height: 70px; line-height: 70px; top: -4px; }
 .play-video.border-video a i { line-height: 60px; }
 .play-video.border-video:after { display: none; }
