@@ -1,6 +1,14 @@
 #lcd-title {
       color: #ffda00
   }
+.lcd-title2 {
+      color: black
+} 
+.lcd-p {
+      color: #e8ae00
+} 
+
+
 h1.lcd-title{
 	color: #ffda00
 }
@@ -10,8 +18,8 @@ h1.lcd-title{
 
 .button.button-border.yellow {
     background: transparent;
-    border: 2px solid #ffda00;
-    color: #ffda00;
+    border: 2px solid #e8ae00;
+    color: #e8ae00;
 }
 
 
@@ -26,3 +34,6 @@ h1.lcd-title{
 .testimonial2{
 	padding:85px 50px 45px 70px;
 }
+
+
+.page-section-pt2 { padding: 60px 0 0; }
