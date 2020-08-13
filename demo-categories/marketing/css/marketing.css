@@ -12,15 +12,15 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Nunito', sans-serif; color: #16182c; marg
 .search-cart .search { padding-right: 0; }
 
 /*marketing banner*/
-.marketing-banner { height:70vh; position: relative; z-index: 9; }
-.marketing-banner .slider-content { padding-left: 30px; border-left : 5px solid #d12326; }
+.marketing-banner { height:100vh; position: relative; z-index: 9; }
+.marketing-banner .slider-content { padding-left: 30px; border-left : 5px solid #ffda00; }
 .marketing-banner .slider-content h1 { font-size: 50px; line-height: 60px; position: relative; font-weight: 600; }
 
 /*marketing-tab */
 .marketing-tab .tab { margin-top: -50px; position: relative; z-index: 99; }
 .marketing-tab .tab-vertical .tab-content p { line-height: 24px; }
-.marketing-tab ul.nav.nav-tabs:before { position: absolute; content: ""; height: 100%; width: 25%; background: #d12326; left: 0; top: 0; z-index: -1;  }
-.marketing-tab .tab-vertical .nav.nav-tabs li a { font-size: 16px; padding: 28px 30px; background: #d12326; color: #ffffff; border-color: rgba(0,0,0,0.2); }
+.marketing-tab ul.nav.nav-tabs:before { position: absolute; content: ""; height: 100%; width: 25%; background: #ffda00; left: 0; top: 0; z-index: -1;  }
+.marketing-tab .tab-vertical .nav.nav-tabs li a { font-size: 16px; padding: 28px 30px; background: #ffda00; color: #ffffff; border-color: rgba(0,0,0,0.2); }
 .marketing-tab .tab-vertical .nav.nav-tabs li:first-child a { border-color: rgba(0,0,0,0.2); }
 .marketing-tab .tab-border .nav.nav-tabs > li > a.active, .marketing-tab .tab-border .nav.nav-tabs > li > a.active:focus, .marketing-tab .tab-border .nav.nav-tabs > li > a.active:hover { background: rgba(0,0,0,0.2) !important; color: #ffffff !important; }
 .marketing-tab .tab-vertical .nav.nav-tabs > li > a.active, .marketing-tab .tab-vertical .nav.nav-tabs > li > a.active:focus, .marketing-tab .tab-vertical .nav.nav-tabs > li > a.active:hover { border-color: rgba(0,0,0,0.2) }
@@ -32,9 +32,9 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Nunito', sans-serif; color: #16182c; marg
 .marketing-service .feature-text:hover { box-shadow: 0 0 50px rgba(0, 0, 0, .2); position: relative; z-index: 1;  }
 
 /*step*/
-.marketing-step .step-box { height: 230px; width: 230px; box-shadow: 0px 0px 0 10px #d12326;  border-radius: 50%; overflow: hidden; -webkit-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
+.marketing-step .step-box { height: 230px; width: 230px; box-shadow: 0px 0px 0 10px #ffda00;  border-radius: 50%; overflow: hidden; -webkit-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
 .marketing-step .step-box h4 { text-align: center; line-height: 230px; position: relative; }
-.marketing-step .step-box:hover { box-shadow: 0px 0px 0 15px #d12326; } 
+.marketing-step .step-box:hover { box-shadow: 0px 0px 0 15px #ffda00; } 
 
 /*testimonial*/
 .marketing-testimonial .testimonial-info { font-size: 18px; line-height: 34px; }
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Nunito', sans-serif; color: #16182c; marg
 ul.menu-sidebar { position: relative; z-index: 1; }
 ul.menu-sidebar li { display: block; }
 ul.menu-sidebar li a { text-transform: capitalize; display: block; background: #f6f7f8; padding: 16px 30px; color: #323232; font-weight: 600; border-bottom: 1px solid #ffffff; border-left: 5px solid transparent;  }
-ul.menu-sidebar li a:hover, ul.menu-sidebar li.active a { border-left: 5px solid #d12326; color: #d12326; }
+ul.menu-sidebar li a:hover, ul.menu-sidebar li.active a { border-left: 5px solid #ffda00; color: #ffda00; }
 
 /*action-box*/
 .marketing-action-box .action-box { padding: 40px 50px; }

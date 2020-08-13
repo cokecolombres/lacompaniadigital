@@ -15,7 +15,7 @@ h4 { font-size: 30px; font-style: normal; font-weight: 500; line-height: 30px; }
 h5 { font-size: 24px; font-style: normal; font-weight: 600; line-height: 30px; }
 h6 { font-size: 20px; font-style: normal; font-weight: 600; line-height: 20px; }
 
-.conference-bg { background: #1d2152; }
+.conference-bg { background: #ffda00; }
 .button { font-weight: bold; letter-spacing: 4px;}
 
 /*timer-banner */
@@ -25,7 +25,7 @@ h6 { font-size: 20px; font-style: normal; font-weight: 600; line-height: 20px; }
 .timer-banner .slider-content .timer-box .icon { display: inline-block; padding-right: 10px; }
 .timer-banner .slider-content .timer-box .countdown-timer { display: inline-block; }
 .timer-banner .slider-content .timer-box .countdown-timer .countdown span { color: #ffffff; }
-.timer-banner .slider-content .timer-box .countdown-timer .countdown span.dot { color: #d12326; padding-left: 16px; }
+.timer-banner .slider-content .timer-box .countdown-timer .countdown span.dot { color: #e8ae00; padding-left: 16px; }
 .timer-banner .slider-content h1 { font-size: 150px; line-height: 130px; margin-bottom: 60px; }
 .timer-banner .slider-content .date-add h4 { font-weight: 900; font-style: italic; padding-bottom: 20px; margin-bottom: 20px; border-bottom: 2px solid rgba(255, 255, 255, 0.3); }
 .timer-banner .slider-content .date-add span { font-size: 17px; }
@@ -41,18 +41,18 @@ h6 { font-size: 20px; font-style: normal; font-weight: 600; line-height: 20px; }
  .conference-split-content .conference-description .conference-contact span { display: block; font-size: 18px; }
 
  /*conference-schedule*/
- .conference-schedule .table-3.table thead { background: #1d2152; color: #ffffff; }
+ .conference-schedule .table-3.table thead { background: #ffda00; color: #ffffff; }
  .conference-schedule .table-3.table thead tr th { text-align: left; }
 
  /*conference-video*/
 .conference-conference-gradient-overlay { position: relative; }
-.conference-gradient-overlay:before { z-index: 0; opacity: .8; position: absolute; content: ""; height: 100%; width: 100%; top: 0; bottom: 0; background: rgba(0, 0, 0, 0.6); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d12326), color-stop(100%, #1d2152)); background: -webkit-linear-gradient(-315deg, #d12326 0%, #1d2152 100%);  background: -webkit-linear-gradient(45deg, #d12326 0%, #1d2152 100%);  background: linear-gradient(45deg, #d12326 0%, #1d2152 100%); }
+.conference-gradient-overlay:before { z-index: 0; opacity: .8; position: absolute; content: ""; height: 100%; width: 100%; top: 0; bottom: 0; background: rgba(0, 0, 0, 0.6); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e8ae00), color-stop(100%, #ffda00)); background: -webkit-linear-gradient(-315deg, #e8ae00 0%, #ffda00 100%);  background: -webkit-linear-gradient(45deg, #e8ae00 0%, #ffda00 100%);  background: linear-gradient(45deg, #e8ae00 0%, #ffda00 100%); }
  .conference-video h3 { line-height: 50px; }
  .conference-video .popup-video { display: inline-block; text-align: center; }
- .conference-video .popup-video  a i { width: 100px; font-size: 20px; height: 100px; line-height: 100px; background: #ffffff; color: #d12326; border-radius: 50%; -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s;
+ .conference-video .popup-video  a i { width: 100px; font-size: 20px; height: 100px; line-height: 100px; background: #ffffff; color: #e8ae00; border-radius: 50%; -webkit-transition: all 0.3s ease-out 0s; -moz-transition: all 0.3s ease-out 0s; -ms-transition: all 0.3s ease-out 0s; -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s; }
- .conference-video .popup-video  a i:hover { background: #d12326; color: #ffffff; }
-.conference-gradient { background: rgba(0, 0, 0, 0.6); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d12326), color-stop(100%, #1d2152)); background: -webkit-linear-gradient(-315deg, #d12326 0%, #1d2152 100%);  background: -webkit-linear-gradient(45deg, #d12326 0%, #1d2152 100%);  background: linear-gradient(45deg, #d12326 0%, #1d2152 100%);}
+ .conference-video .popup-video  a i:hover { background: #e8ae00; color: #ffffff; }
+.conference-gradient { background: rgba(0, 0, 0, 0.6); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e8ae00), color-stop(100%, #ffda00)); background: -webkit-linear-gradient(-315deg, #e8ae00 0%, #ffda00 100%);  background: -webkit-linear-gradient(45deg, #e8ae00 0%, #ffda00 100%);  background: linear-gradient(45deg, #e8ae00 0%, #ffda00 100%);}
 /*footer*/
 .footer.conference-bg .footer-Newsletter .form-control { background: rgba(0, 0, 0, 0.2); }
 .footer.conference-bg .footer-widget { border-color: rgba(255, 255, 255, 0.1); }

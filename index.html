@@ -24,8 +24,9 @@
   <!-- Plugins -->
   <link rel="stylesheet" type="text/css" href="css/plugins-css.css" />
 
-  <!-- revoluation -->
+  <!-- revolution -->
   <link rel="stylesheet" type="text/css" href="revolution/css/settings.css" media="screen" />
+
 
   <!-- Typography -->
   <link rel="stylesheet" type="text/css" href="css/typography.css" />
@@ -35,6 +36,12 @@
 
   <!-- Style -->
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <!-- marketing -->
+  <link rel="stylesheet" type="text/css" href="demo-categories/marketing/css/marketing.css" />
+
+  <!-- cafe -->
+  <link rel="stylesheet" type="text/css" href="demo-categories/conference/css/conference.css" />
 
   <!-- LCD Style -->
   <link rel="stylesheet" type="text/css" href="css/lcd.css" />
@@ -49,6 +56,29 @@
 </head>
 
 <body>
+
+<style type="text/css">
+  .floatingBtn {
+    position: fixed;
+      right: 1rem;
+      bottom: 1.5rem;
+      z-index: 1000;
+  }
+
+  #wspBtn {
+    width: 56px;
+    min-width: 56px;
+    height: 56px;
+    padding: 0;
+    border-radius: 50%;
+  }
+
+</style>
+<div class="floatingBtn">
+  <a href="https://wa.me/5493814788633?text=Hola,%20te%20escribo%20por%20dataLab.." target="_blank">
+    <button id="wspBtn" type="button" class="btn-success"><i class="fa fa-whatsapp" aria-hidden="true" style="font-size: 40px"></i></button>
+  </a>  
+</div>
 
 <div class="wrapper">
   <div id="pre-loader">
@@ -117,30 +147,28 @@
     </div>
   </header>
 
-  <section class="slider-parallax business-banner-06 bg-overlay-black-80 parallax" data-jarallax='{"speed": 0.6}' style="background-image: url(images/bg/29.png);">
-    <div class="slider-content-middle">
-     <div class="container">
-       <div class="row">
-          <div class="col-12">
-           <div class="slider-content">
-            <div class="row">
-              <div class="col-lg-8">
-                  <h1 class="text-white text-uppercase">Somos <br> diseño & <br> tecnología</h1>
-                  <p class="text-white">Realmente creemos en la tecnología como un medio para mejorar nuestras vidas en casi cualquier aspecto.</p>
-                  <a class="button bg-lcd mt-20" href="#">Digitalizate</a>
-              </div>
-              <div class="col-lg-4 align-self-center">
-                <div class="play-video border-video text-center">
-                  <a class="" data-toggle="modal" data-target="#exampleModal"> <i class="fa fa-play text-lcd"></i> </a>
-                </div>
-              </div>
-            </div>
-           </div>
+
+<section class="slider-parallax marketing-banner bg-overlay-black-70 parallax" style="background: url(images/bg/011.jpg);">
+  <div class="slider-content-middle">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-5 col-md-5 align-self-center text-right">
+          <p class="text-white">
+            Realmente creemos en la tecnología como un medio para mejorar nuestras vidas en casi cualquier aspecto.
+          </p>
+        </div>
+
+        <div class="col-lg-5 col-md-5 align-self-center">
+          <div class="slider-content">
+            <h1 class="text-white mt-20">Te ayudamos a mejorar tu vida con tecnología</h1>
           </div>
-       </div>
-     </div>
+        </div>
+
+      </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- MODAL -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -168,10 +196,10 @@
     </div>
   </div>
 
-  <section class="gray-bg page-section-pt happy-clients">
+  <section class="gray-bg page-section-ptb happy-clients">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 mt-20 fadeInRight wow">
+        <div class="col-lg-6 mt-20 fadeInLeft wow">
           <div class="section-title">
             <span class="h4 text-gray">Bienvenido!</span>
             <h1>Somos la compañía que buscas</h1>
@@ -187,10 +215,16 @@
           <p>
             Con pocos años de trayectoria hemos adquirido una importante experiencia y brindado soluciones concretas y de calidad a todos nuestros clientes.
           </p>
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Quiero saber mas</button>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Ver portfolio</button>
+          <div class="text-center">
+            <a target="blank" href="#" class="button button-border-white">
+              <span>Ya era, quiero mi web</span>
+            </a>
+            <a target="blank" href="#" class="button border gray">
+              <span>Quiero más info</span>
+            </a>
+          </div>
         </div>
-        <div class="col-lg-6 align-self-end rollIn wow">
+        <div class="col-lg-6 align-self-end">
           <img class="d-xs-block d-lg-block d-none img-fluid" src="images/objects/flash.png" alt="">
         </div>
       
@@ -198,234 +232,112 @@
    </div>
   </section>
 
-  <section class="page-section-pt2 o-hidden">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12">
-           <div class="section-title text-center">
-              <span class="h4 text-gray">Queremos impulsarte con tecnología</span>
-              <h1>Nuestros servicios</h1>
-            </div>
+  <section class="page-section-ptb bg-dark">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+            <h2 class="title text-white">Nuestros  <span class="theme-bg text-dark">servicios digitales </span> </h2>
+            <p class="text-gray">Somos especialistas en idear e implementar soluciones digitales de todo tipo.</p>
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-sm-12 mb-30 ">
+        <div class="media border p-4 zoomIn wow">
+          <div class="feature-icon media-icon mr-4">
+           <span class="ti-layers-alt theme-color"></span>
+          </div>
+          <div class="media-body">
+            <h5 class="text-white">Desarrollo Web</h5>
+            <p class="mb-0 text-white">
+              Desarrollamos sitios web que posicionan, potencian, impactan e impulsan negocios generando reacciones.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 sm-mb-30">
-          <div class="text-center rollIn wow">
-            <i class="ti-desktop display-4 text-gray"></i>
-            <h3 class="d-block mt-30 mb-20"><a href="">Desarrollo web</a> </h3>
-            <p class="mb-30">Desarrollamos sitios web que posicionan, potencian, impactan e impulsan negocios generando reacciones.</p>
-            
+      <div class="col-lg-4 col-sm-12 mb-30 ">
+        <div class="media border p-4 zoomIn wow">
+          <div class="feature-icon media-icon mr-4">
+           <span class="ti-headphone theme-color"></span>
           </div>
-         </div>
-         <div class="col-lg-4 col-sm-6 sm-mb-30">
-          <div class="text-center bounceIn wow">
-            <i class="ti-headphone display-4 text-gray"></i>
-            <h3 class="d-block mt-30 mb-20"><a href="">Diseño gráfico </a></h3>
-            <p class="mb-30">Diseñamos en distintos formatos para construir los mensajes de tu marca o negocio y su presencia en medios digitales.</p>
-            
+          <div class="media-body">
+            <h5 class="text-white">Marketing</h5>
+            <p class="mb-0 text-white">Estudiamos el contexto de tu marca para posicionarla en el mercado y detectar tendencias entre los consumidores.</p>
           </div>
-         </div>
-         <div class="col-lg-4 col-sm-6">
-          <div class="text-center bounceInDown wow">
-            <i class="ti-panel display-4 text-gray"></i>
-            <h3 class="d-block mt-30 mb-20"><a href="">Marketing digital</a></h3>
-            <p class="mb-30">Estudiamos el contexto de tu marca para posicionarla en el mercado y detectar tendencias entre los consumidores.</p>
-            
-          </div>
-         </div>
-         <div class="col-lg-4 col-sm-6">
-          <div class="text-center fadeIn wow">
-            <i class="ti-shield display-4 text-gray"></i>
-            <h3 class="d-block mt-30 mb-20"><a href="">Generación de contenidos</a></h3>
-            <p class="mb-30">Creamos buenas piezas de contenido digital para comunicar de manera efectiva, atraer usuarios e influir en el mercado.</p>
-            
-          </div>
-         </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="text-center fadeInLeft wow">
-            <i class="ti-shield display-4 text-gray"></i>
-            <h3 class="d-block mt-30 mb-20"><a href="">Gestión de proyectos</a></h3>
-            <p class="mb-30">Mejorando la comunicación, digitalización, optimización de procesos y aplicación de herramientas digitales.</p>
-            
-          </div>
-         </div>
-         <div class="col-lg-4 col-sm-6">
-          <div class="text-center fadeInRight wow">
-            <i class="ti-shield display-4 text-gray"></i>
-            <h3 class="d-block mt-30 mb-20"><a href="">Asesoría</a></h3>
-            <p class="mb-30">------------</p>
-            
-          </div>
-         </div>
+        </div>
       </div>
-      <br>
+      <div class="col-lg-4 col-sm-12 mb-30 ">
+        <div class="media border p-4 zoomIn wow">
+          <div class="feature-icon media-icon mr-4">
+           <span class="ti-layers-alt theme-color"></span>
+          </div>
+          <div class="media-body">
+            <h5 class="text-white">Diseño Gráfico</h5>
+            <p class="mb-0 text-white">Diseñamos en distintos formatos para construir los mensajes de tu marca o negocio y su presencia en medios digitales.</p>
+          </div>
+        </div>
+      </div> 
     </div>
-  </section>
+    <div class="row">
+      <div class="col-lg-4 col-sm-12 mb-30 ">
+        <div class="media border p-4 zoomIn wow">
+          <div class="feature-icon media-icon mr-4">
+           <span class="ti-layers-alt theme-color"></span>
+          </div>
+          <div class="media-body">
+            <h5 class="text-white">Contenidos</h5>
+            <p class="mb-0 text-white">Creamos buenas piezas de contenido digital para comunicar de manera efectiva, atraer usuarios e influir en el mercado</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 mb-30 ">
+        <div class="media border p-4 zoomIn wow">
+          <div class="feature-icon media-icon mr-4">
+           <span class="ti-headphone theme-color"></span>
+          </div>
+          <div class="media-body">
+            <h5 class="text-white">Asesoría</h5>
+            <p class="mb-0 text-white"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 mb-30 ">
+        <div class="media border p-4 zoomIn wow">
+          <div class="feature-icon media-icon mr-4">
+           <span class="ti-layers-alt theme-color"></span>
+          </div>
+          <div class="media-body">
+            <h5 class="text-white">Gestión de proyectos</h5>
+            <p class="mb-0 text-white">Mejorando la comunicación, digitalización, optimización de procesos y aplicación de herramientas digitales.</p>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
 
-  <section class="action-box black-bg full-width">
+
+  <section class="action-box theme-bg bg-white full-width">
     <div class="container">
       <div class="row">
        <div class="col-lg-12 col-md-12">
-         <div class="action-box-text">
-          <h3 class="lcd-title2"><strong> LA COMPAÑíA DIGITAL</strong></h3>
-          <p>Buscamos día a día mejorar tu vida con tecnología</p>
-        </div>
-        <div class="action-box-button">
-          <a class="button bg-lcd" href="#">Digitalizate</a>
-       </div>
+          <div class="action-box-text">
+           <h3 class="text-dark">Día a día queremos mejorar tu vida</h3>
+           <p class="text-dark">Somos tu compañía de tecnología y buscamos impulsar tu vida.</p>
+           </div>
+           <div class="action-box-button">
+          <a class="button bg-lcd" href="#">
+            <span class="">Digitalizate</span>
+         </a>
+         </div>
       </div>
     </div>
-   </div>
+    </div>
   </section>
 
-  <section class="awesome-features gray-bg page-section-ptb pos-r">
-      <div class="side-background">
-        <div class="col-lg-5 img-side img-left d-xs-block d-lg-block d-none">
-          <div class="row page-section-pt mt-30">
-            <img src="images/objects/07.png" alt="">
-          </div>
-        </div>
-      </div>
-     <div class="container">
-       <div class="row justify-content-end">
-         <div class="col-lg-7">
-          <div class="section-title">
-              <span class="h4 text-gray">Somos tu mejor opción</span>
-              <h1>Lo que nos caracteriza</h1>
-              <p>Realmente creemos en la tecnología como un medio para mejorar nuestras vidas en casi cualquier aspecto.</p>
-            </div>
-           <div class="row">
-             <div class="col-md-6 col-sm-6">
-               <div class="feature-text text-left mb-30">
-               <div class="feature-icon">
-                <span class="ti-desktop theme-color"></span>
-                </div>
-                <div class="feature-info">
-                    <h5>Perfect design</h5>
-                     <p>Out of box thinking and <span class="theme-color" data-toggle="tooltip" data-placement="top" title="" data-original-title="Won 10+ Awards"> Award-winning</span> web design agency. </p>
-                 </div>
-             </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-               <div class="feature-text text-left mb-30">
-               <div class="feature-icon">
-                <span class="ti-headphone theme-color"></span>
-                </div>
-                <div class="feature-info">
-                  <h5>Fast Customer support</h5>
-                   <p>Our Support Team will do its best to provide the best helpful answer for the issues.</p>
-                 </div>
-             </div>
-            </div>
-           </div>
-           <div class="row">
-             <div class="col-md-6 col-sm-6">
-               <div class="feature-text text-left mt-30">
-               <div class="feature-icon">
-                <span class="ti-panel theme-color"></span>
-                </div>
-                <div class="feature-info">
-                <h5>Easy to Customize</h5>
-                 <p>Webster code is easy and requires no/less programming skills to create a website</p>
-               </div>
-             </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-               <div class="feature-text text-left mt-30">
-               <div class="feature-icon">
-                <span class="ti-shield theme-color"></span>
-                </div>
-                <div class="feature-info">
-                    <h5>Powerful Performance</h5>
-                     <p>High performance, super fast with top page speed & yslow ratings </p>
-                </div>
-             </div>
-            </div>
-           </div>
-         </div>
-       </div>
-     </div>
-  </section>
 
-  <section class="white-bg page-section-ptb">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12">
-           <div class="section-title text-center">
-              <span class="h4 text-gray">Lo que venimos haciendo</span>
-              <h1>Nuestros proyectos</h1>
-            </div>
-         </div>
-      </div>
-      <div class="row">
-       <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-        <div class="isotope columns-3 popup-gallery">
-          <div class="grid-item photography branding">
-              <div class="portfolio-item">
-               <img src="images/portfolio/ditrabajo.png" alt="">
-                 <div class="portfolio-overlay">
-                    <h4 class="text-dark"> <a href="portfolio-single-01.html"> diTrabajo </a> </h4>
-                    <span class="text-dark"> Sitio web dinámico</span> 
-                  </div>
-                <a class="popup portfolio-img" href="images/portfolio/ditrabajo.png"><i class="fa fa-arrows-alt"></i></a>
-            </div>
-          </div>
-          <div class="grid-item photography branding">
-           <div class="portfolio-item">
-               <img src="images/portfolio/colombres-garmendia.png" alt="">
-                 <div class="portfolio-overlay">
-                    <h4 class="text-dark"> <a href="portfolio-single-01.html"> Colombres Garmendia </a> </h4>
-                    <span class="text-dark"> Sitio web dinámico</span> 
-                  </div>
-                <a class="popup portfolio-img" href="images/portfolio/colombres-garmendia.png"><i class="fa fa-arrows-alt"></i></a>
-            </div>
-          </div>
-          <div class="grid-item illustration">
-           <div class="portfolio-item">
-               <img src="images/portfolio/exelsus.png" alt="">
-                 <div class="portfolio-overlay">
-                    <h4 class="text-dark"> <a href="portfolio-single-01.html"> Clínica Exelsus </a> </h4>
-                    <span class="text-dark"> Sitio web estático</span>
-                  </div>
-                <a class="popup portfolio-img" href="images/portfolio/exelsus.png"><i class="fa fa-arrows-alt"></i></a>
-            </div>
-          </div>
-          <div class="grid-item photography branding">
-              <div class="portfolio-item">
-               <img src="images/portfolio/groov.png" alt="">
-                 <div class="portfolio-overlay">
-                    <h4 class="text-dark"> <a href="portfolio-single-01.html"> GROOV EPISODES </a> </h4>
-                    <span class="text-dark"> Sitio web estático</span>
-                  </div>
-                <a class="popup portfolio-img" href="images/portfolio/groov.png"><i class="fa fa-arrows-alt"></i></a>
-            </div>
-          </div>
-          <div class="grid-item photography branding">
-           <div class="portfolio-item">
-               <img src="images/portfolio/clic.png" alt="">
-                 <div class="portfolio-overlay">
-                    <h4 class="text-dark"> <a href="portfolio-single-01.html"> Clic Marketing Digital </a> </h4>
-                    <span class="text-dark"> Sitio web estático</span>
-                  </div>
-                <a class="popup portfolio-img" href="images/portfolio/clic.png"><i class="fa fa-arrows-alt"></i></a>
-            </div>
-          </div>
-          <div class="grid-item illustration">
-           <div class="portfolio-item">
-               <img src="images/portfolio/coke.png" alt="">
-                 <div class="portfolio-overlay">
-                    <h4 class="text-dark"> <a href="portfolio-single-01.html"> < / Coke > </a> </h4>
-                    <span class="text-dark"> Sitio web estático</span> 
-                  </div>
-                <a class="popup portfolio-img" href="images/portfolio/coke.png"><i class="fa fa-arrows-alt"></i></a>
-            </div>
-          </div>
-        </div>
-       </div>
-      </div> 
-  </section>
-
-  <footer class="footer page-section-pt2 black-bg">
+  <footer class="footer page-section-pt2 bg-dark">
    <div class="container">
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-6 sm-mb-30">

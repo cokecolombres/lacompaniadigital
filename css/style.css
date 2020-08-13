@@ -143,7 +143,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 /*mega-menu */
 .mega-menu .menu-logo { padding: 25px 0 25px; }
-.mega-menu .menu-logo img { height: 110px; }
+.mega-menu .menu-logo img { height: 80px; }
 .mega-menu .drop-down-multilevel.right-menu { right: 0px;  }
 .mega-menu > section.menu-list-items { padding: 0; }
 .mega-menu .menu-links > li > a { text-transform: uppercase; font-size: 14px; font-weight: 500; line-height: 20px; }
@@ -663,9 +663,9 @@ margin-left: -17px; line-height: 50px; }
 .feature-step a:hover { color: #323232; }
 
 .feature-step-2-box { padding: 70px 30px; z-index: 99; position: relative; }
-.feature-step-2.bg-01 { background: url(../images/blog/05.jpg); background-repeat: no-repeat; background-size: cover; }
-.feature-step-2.bg-02 { background: url(../images/blog/06.jpg); background-repeat: no-repeat; background-size: cover; }
-.feature-step-2.bg-03 { background: url(../images/blog/09.jpg); background-repeat: no-repeat; background-size: cover; }
+.feature-step-2.bg-01 { background: url(../images/team/coke.jpeg); background-repeat: no-repeat; background-size: cover; }
+.feature-step-2.bg-02 { background: url(../images/team/02.png); background-repeat: no-repeat; background-size: cover; }
+.feature-step-2.bg-03 { background: url(../images/team/03.png); background-repeat: no-repeat; background-size: cover; }
 .feature-step-2.bg-overlay-black-50:before { z-index: 0; }
 .feature-step-2 .feature-step-2-title-left h1 { font-size: 75px; line-height: 60px; color: #ffffff; }
 .feature-step-2 h3 { margin-bottom: 0; }
@@ -1596,7 +1596,7 @@ img#logo-footer{ height: 100px; width: auto; }
 .popup-video .play-video:hover {  transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%); background-color: #ffffff; }
 .popup-video .play-video:hover a { color: #84ba3f; }
 .play-video { cursor: pointer; position: relative; width: 100px; height: 100px; margin: auto; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; -webkit-transition: all .5s; -moz-transition: all .5s; -ms-transition: all .5s; -o-transition: all .5s; transition: all .5s; }
-.play-video { background-color: #84ba3f; }
+.play-video { background-color: #ffda00; }
 .play-video a { color: #fff; width: 100px; height: 100px; position: absolute; top: 0; left: 50%; padding-left: 5px; transform: translateX(-50%); }
 .play-video a i { line-height: 100px; }
 .play-video:hover a { color: #84ba3f; }
