@@ -140,8 +140,8 @@
         </div>
        <ul class="page-breadcrumb">
           <li><a href="user.html"><i class="fa fa-user"></i> Coke Colombres</a></li>
-          <li><a class="disabled">&nbsp; 2222 puntos &nbsp;</a></li>
-          <li><a class="disabled"><i class="fa fa-comment"></i>22 comentarios</a> </li>
+          <li><a class="text-white">&nbsp; 2222 puntos &nbsp;</a></li>
+          <li><a class="text-white"><i class="fa fa-comment"></i>22 comentarios</a> </li>
         </ul>
     </div>
    </div>
@@ -150,14 +150,17 @@
 <section class="blog masonry-main page-section-pb pt-20 bg-gray2">
  <div class="container">
    <div class="row">
-    <div class="col-lg-1">
-      <div class="sticky-top">
-        VAMOS
-        <p>Ultimos visitados</p>
+      <div class="col-lg-2">
+        <div class="sticky-top">
+          <br>
+          <button type="button" class="btn btn-outline-secondary btn-block">Atras</button>
+          <button type="button" class="btn btn-outline-secondary btn-block">Secondary</button>
+          <button type="button" class="btn btn-outline-secondary btn-block">Secondary</button>
+          <button type="button" class="btn btn-outline-secondary btn-block">Secondary</button>
+        </div>
+        
       </div>
-      
-    </div>
-      <div class="col-lg-11 col-md-8 page-content">
+      <div class="col-lg-10 col-md-8 page-content">
 
         <div class="bd-callout bd-callout-info bg-white">
           <p>The animation effect of this component is dependent on the <code class="language-plaintext highlighter-rouge">prefers-reduced-motion</code> media query. See the <a href="/docs/4.5/getting-started/accessibility/#reduced-motion">reduced motion section of our accessibility documentation</a>.</p>
@@ -275,7 +278,96 @@
       </div>
     </div>
 
+    <div class="related-work mt-40" id="comentarios">
+      <div class="row">
+        <div class="col-ld-12 col-md-12">
+         <h3 class="text-dark mb-20">Comentarios</h3>
 
+          <div class="blog-comments mt-40">
+            <div class="comments-1">
+               <div class="comments-photo">
+                 <img class="img-fluid" src="images/team/01.jpg" alt="">
+                </div>
+                 <div class="comments-info">
+                 <h4 class="theme-color"> Kevin Martin <span>Hace 3 horas</span></h4>
+                  <div class="port-post-social float-right">
+                    <a href="#">Responder</a>
+                  </div>
+                    <p>Sit amet nibh vulputate cursus a sit amet mauris lorem ipsum dolor sit amet of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio  <a href="#">http://themeforest.net</a> Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat </p>
+               </div>
+               </div>
+               <div class="comments-1 comments-2">
+               <div class="comments-photo">
+                 <img class="img-fluid" src="images/team/02.jpg" alt="">
+                </div>
+                 <div class="comments-info">
+                 <h4 class="theme-color"> Kevin Martin <span>Hace 3 horas</span></h4>
+                  <div class="port-post-social float-right">
+                    <a href="#">Responder</a>
+                  </div>
+                    <p>Vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor Lorem ipsum dolor sit amet of Lorem Ipsum. Proin gravida nibh..</p>
+               </div>
+               </div>
+               <div class="comments-1 comments-2">
+               <div class="comments-photo">
+                 <img class="img-fluid" src="images/team/02.jpg" alt="">
+                </div>
+                 <div class="comments-info">
+                 <h4 class="theme-color"> Kevin Martin <span>Hace 3 horas</span></h4>
+                  <div class="port-post-social float-right">
+                    <a href="#">Responder</a>
+                  </div>
+                    <p>Aenean sollicitudin, lorem quis bibendum auctor Lorem ipsum dolor sit amet of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet..</p>
+               </div>
+               </div>
+               <div class="comments-1 pt-10">
+               <div class="comments-photo">
+                 <img class="img-fluid" src="images/team/01.jpg" alt="">
+                </div>
+                 <div class="comments-info">
+                 <h4 class="theme-color"> Kevin Martin <span>Hace 3 horas</span></h4>
+                  <div class="port-post-social float-right">
+                    <a href="#">Responder</a>
+                  </div>
+                    <p>Bibendum auctor Lorem ipsum dolor sit amet of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris <a href="#">http://themeforest.net</a> Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat </p>
+               </div>
+            </div>
+          </div>
+
+          <h3 class="theme-color mb-30">Deja tu comentario </h3>
+         <div class="row">
+            <div class="col-lg-12 col-md-12">
+              <div id="formmessage">Success/Error Message Goes Here</div>
+            </div>
+          </div>
+           <form id="contactform" class="gray-form form-row" role="form" method="post" action="php/contact-form.php">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Tu nombre">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <div class="form-group">
+                        <textarea class="form-control" rows="7" placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12">
+                <div class="g-recaptcha section-field clearfix" data-sitekey="[Add your site key]"></div>
+              </div>
+                <div class="col-lg-12 col-md-12">
+                    <input type="hidden" name="action" value="sendEmail">
+                    <button id="submit" name="submit" type="submit" value="Send" class="button"><span>Comentar</span></button>
+                </div>
+            </form>
+            <div id="ajaxloader" style="display:none"><img class="mx-auto mt-30 mb-30 d-block" src="images/pre-loader/loader-02.svg" alt=""></div>
+       </div>
+      </div>
+    </div>
 
 
       </div>
@@ -287,47 +379,65 @@
 <!--=================================
  footer -->
 
-<footer class="footer page-section-pt black-bg">
+<footer class="footer page-section-pt bg-dark">
  <div class="container">
   <div class="row">
-  <div class="col-lg-4 col-md-6 col-sm-6 sm-mb-30">
+    <div class="col-lg-4 col-md-6 col-sm-6 sm-mb-30">
       <div class="footer-logo">
         <img id="logo-footer" class="mb-20" src="images/logo-06.png" alt="">
-        <p class="pb-10"> Inspiramos el buen uso e implementación de tecnología que potencie nuestras capacidades</p>
       </div>
-  </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 sm-mb-30">
+      <p class="pb-10">Noticias, opiniones y consejos sobre los medios digitales y su uso</p>
+      <div class="social-icons social-border rounded color-hover clearfix"><ul>
+        <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li class="social-youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li class="social-instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li class="social-skype"><a href="#"><i class="fa fa-skype"></i></a></li>
+      </ul></div>
+    </div>
+    <div class="col-lg-2 col-md-3 col-sm-6 sm-mb-30">
       <div class="footer-useful-link footer-hedding">
         <h6 class="text-white mb-30 mt-10 text-uppercase">Información</h6>
         <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="contact.html">Contacto</a></li>
-          <li><a href="#">Oportunidades</a></li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Servicios</a></li>
+          <li><a href="about.html">Nosotros</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <!-- <li><a href="#">Oportunidades</a></li> -->
         </ul>
       </div>
     </div>
-    <div class="col-lg-5 col-md-6 col-sm-6">
-    <h6 class="text-white mb-30 mt-10 text-uppercase">Contacto</h6>
-    <ul class="addresss-info">
-        <li><i class="fa fa-map-marker"></i> <p>9 de Julio 371, Tucumán, Argentina <br> CP: 4000</p> </li>
-        <li><i class="fa fa-phone"></i> <a href="tel:7042791249"> <span>+54 9 381 232 4554 (whatsapp)</span> </a> </li>
-        <li><i class="fa fa-envelope-o"></i>contacto@lacompaniadigital.com</li>
-      </ul>
-      <div class="social-icons color-hover">
-         <ul>
-          <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li class="social-dribbble"><a href="#"><i class="fa fa-dribbble"></i> </a></li>
-          <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i> </a></li>
-         </ul>
-       </div>
+    <div class="col-lg-2 col-md-3 col-sm-6 sm-mb-30">
+      <div class="footer-useful-link footer-hedding">
+        <h6 class="text-white mb-30 mt-10 text-uppercase">Información</h6>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Servicios</a></li>
+          <li><a href="about.html">Nosotros</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <!-- <li><a href="#">Oportunidades</a></li> -->
+        </ul>
+      </div>
     </div>
-   </div>
-     <div class="footer-widget mt-20">
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <iframe style="border-radius: 5px;" class="map_footer" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2342.0403000705396!2d-65.2063627905762!3d-26.83561740054946!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc3d6c418e7b06dd1!2zTGEgY29tcGHDscOtYSBkaWdpdGFs!5e0!3m2!1ses-419!2sar!4v1580314220077!5m2!1ses-419!2sar" width="400" height="200" frameborder="0" allowfullscreen=""></iframe>
+      
+    </div>
+  </div>
+  <div class="footer-widget mt-20">
     <div class="row">
-      <div class="col-md-12 text-center">
+      <div class="col-lg-6 col-md-6">
         <p class="mt-15"> &copy;Copyright <span id="copyright"> <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> <a href="#"> LA COMPAÑIA DIGITAL </a> All Rights Reserved </p>
+      </div>
+      <div class="col-lg-6 col-md-6 ">
+        <div class="footer-social mt-10">
+          <ul class="text-left text-md-right">
+             <li class="list-inline-item"><a href="#">Terms &amp; Conditions </a> &nbsp;&nbsp;&nbsp;|</li>
+             <li class="list-inline-item"><a href="#">API Use Policy </a> &nbsp;&nbsp;&nbsp;|</li>
+             <li class="list-inline-item"><a href="#">Privacy Policy </a> </li>
+          </ul>
+          </div>
       </div>
     </div>
   </div>
